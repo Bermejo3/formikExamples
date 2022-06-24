@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import StandardFormik from "./components/formik";
+// import EditDataFormik from "./components/formikEditData";
+// import UseFormikComponent from "./components/useFormik";
+// import FormikWithValidation from "./components/formikWithValidation";
+// import FormikUseFormikPropsDrilling from "./components/useFormikPropsDrilling";
+// import FormikWithUseFormikContext from "./components/formikWithUseFormikContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <StandardFormik />
+      {/* <EditDataFormik /> */}
+      {/* <UseFormikComponent /> */}
+      {/* <FormikWithValidation /> */}
+      {/* <FormikUseFormikPropsDrilling /> */}
+      {/* <FormikWithUseFormikContext /> */}
+    </>
   );
 }
 
